@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #16889b;
+    padding: 1em;
+    color: white;
+}
+
+.logo {
+    margin: 0px;
+    font-family: 'Rye', cursive;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.container>h1 {
+    font-family: 'Rye', cursive;
+    color: #16889b;
+}
+
+main {
+    display: flex;
+    padding: 1em;
+    background-color: #3096a01c;
+}
+
+.sidebar {
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.care__container {
+    padding: 1em;
+    background-color: #19c5d55a;
+    border-radius: 1em;
+}
+
+.container {
+    width: 100%;
+}
+
+.fish__list,
+.location__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fish {
+    margin: 0 1em 1em 0;
+    padding: 1em;
+    min-width: 150px;
+    flex: 1 1 17%;
+    background-color: white;
+    border-radius: 1em;
+    top: 0;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.648);
+    transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+.location {
+    margin: 0 1em 1em 0;
+    padding: 1em;
+    min-width: 200px;
+    flex: 1 1 21%;
+    background-color: white;
+    border-radius: 1em;
+    top: 0;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.648);
+    transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+.fish:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.648);
+}
+
+.location:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.648);
+}
+
+.fish>img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.location>img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.quote {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 1.5em;
+}
