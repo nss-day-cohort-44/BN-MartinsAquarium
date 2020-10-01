@@ -1,3 +1,4 @@
+/* IMPORT FONTS FROM GOOGLE */
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
 body {
@@ -54,53 +55,42 @@ main {
 }
 
 .fish {
-    margin: 0 1em 1em 0;
-    padding: 1em;
     min-width: 150px;
     flex: 1 1 17%;
-    background-color: white;
-    border-radius: 1em;
-    top: 0;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.648);
-    transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
 .location {
-    margin: 0 1em 1em 0;
-    padding: 1em;
     min-width: 200px;
     flex: 1 1 21%;
-    background-color: white;
-    border-radius: 1em;
-    top: 0;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.648);
-    transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
-.fish:hover {
-    position: relative;
-    top: -3px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.648);
-}
 
-.location:hover {
-    position: relative;
-    top: -3px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.648);
-}
-
-.fish>img {
-    width: 100%;
-    border-radius: 1em;
-}
-
-.location>img {
-    width: 100%;
-    border-radius: 1em;
-}
-
+/* QUOTES */
 .quote {
     color: cadetblue;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+
+/* ITEM CARDS WITH HOVER*/
+.card {
+    margin: 0 1em 1em 0;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1em;
+    top: 0;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.648);
+    transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+.card>img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.card:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.648);
 }
