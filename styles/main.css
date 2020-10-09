@@ -84,7 +84,7 @@ main {
     transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
-.card>img {
+.card img {
     width: 100%;
     border-radius: 1em;
 }
