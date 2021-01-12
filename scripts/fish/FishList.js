@@ -2,11 +2,14 @@
  *  FishList which renders individual fish objects as HTML
  */
 
-import { useFish } from './FishDataProvider.js'
+import { useFish, mostHolyFish, soldierFish, nonHolyFish } from './FishDataProvider.js'
 import { Fish } from './Fish.js'
 
 
 export const FishList = () => {
+    console.log("Most Holy", mostHolyFish())
+    console.log("Soldiers", soldierFish())
+    console.log("The rest", nonHolyFish())
 
     // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".content")
@@ -20,7 +23,7 @@ export const FishList = () => {
     }
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
-        <article class="fishList">
+        <article class="fish__list">
             ${fishHTMLRepresentations}
         </article>
     `
