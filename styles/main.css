@@ -59,9 +59,19 @@ main {
     flex: 1 1 17%;
 }
 
+.fish__name {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
 .location {
     min-width: 200px;
     flex: 1 1 21%;
+}
+
+.location__name {
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 
@@ -84,7 +94,7 @@ main {
     transition: top .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
-.card>img {
+.card img {
     width: 100%;
     border-radius: 1em;
 }
